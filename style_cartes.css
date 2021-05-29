@@ -35,8 +35,12 @@ a{
 }
 .case{
     border : 1px solid #e1e1e0;
-    margin : 1em;
+    margin : 0.5em 0.5em 0.5em 0.5em;
     padding : 0.5em;
+    border-radius: 30px;
+    text-align: center;
+    background-color :#e1e1e0;
+    color:#8b3a3a;
 }
 .lien{ /* pour paramètrer directement*/
     text-decoration: underline;

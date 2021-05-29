@@ -31,13 +31,17 @@ a{
     bottom: 0;
     left: 0;
     right:0;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .case{
     border : 1px solid #e1e1e0;
-    margin : 1em;
+    margin : 0.5em 2em 0.5em 2em;
     padding : 0.5em;
+    border-radius: 30px;
+    text-align: center;
+    background-color :#e1e1e0;
+    color:#8b3a3a;
 }
 .lien{ /* pour paramètrer directement*/
     text-decoration: underline;
