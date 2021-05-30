@@ -12,7 +12,6 @@ a{
 }
 
 
-
 /* classes personnalisées */
 
 .fond-bordeau{   /* permet de colorier en bordeau les éléments de la classe */
@@ -36,7 +35,7 @@ a{
 }
 .case{
     border : 1px solid #e1e1e0;
-    margin : 0.5em 2em 0.5em 2em;
+    margin : 0.5em 0.5em 0.5em 0.5em;
     padding : 0.5em;
     border-radius: 30px;
     text-align: center;

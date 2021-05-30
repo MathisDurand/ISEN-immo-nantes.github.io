@@ -1,8 +1,8 @@
 /* style du site */
-
-
+ 
+ 
 /* styles "universels" */
-
+ 
 body{
     font-family: "fantasy", Verdana; /* pas de Raleway comme pour le guide pratique : à modifier s'il y a mieux */
     background-color: #e1e1e0;
@@ -10,10 +10,11 @@ body{
 a{
     text-decoration: none;
 }
-
-
+ 
+ 
+ 
 /* classes personnalisées */
-
+ 
 .fond-bordeau{   /* permet de colorier en bordeau les éléments de la classe */
     /*padding-top:1em;*/
     background-color: #8b3a3a;
@@ -46,32 +47,38 @@ a{
     text-decoration: underline;
     font-weight: bold;
 }
-.prix{
-    font-weight: bold;
-}
-.petit{
-    font-size:75%;
-}
-.boite{
-    border: solid 1px black;
-    padding:0.5em;
-    margin:1em 0em 1em 0em;
-}
-.titre{
-    margin-top: 4em; 
-    margin-bottom: 2em;
+#titre_partie{
+    letter-spacing: 0.2em;
     text-align: center;
+    margin-top: 1em;
 }
-.map-responsive {
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+#ligne_partie{
+    border: none;
+    border-top: 0.2em dotted black;
+    background-color: white;
 }
-.map-responsive iframe {
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
+#liste_types_offres{
+    list-style-type:initial;
+}
+#etat_des_lieux{
+    padding-left: 2.5em;
+    text-align: justify;
+    padding-right: 2.5em;
+}
+#aide_au_log{
+    padding-left: 2.5em;
+    text-align: justify;
+    padding-right: 2.5em;
+}
+#resi_bail{
+    padding-left: 2.5em;
+    text-align: justify;
+    padding-right: 2.5em;
+}
+
+.resi-uni{
+    padding-left: 15em;
+}
+#incrementation{
+    padding-left: 5em;
 }
